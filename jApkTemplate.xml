@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4.0" type="plugin" group="system" method="upgrade">
+    <name>jApkTemplate</name>
+    <version>1.0.0</version>
+    <creationDate>02.07.2023</creationDate>
+    <author>Максим Ёдгоров</author>
+    <authorEmail>4374599@mail.ru</authorEmail>
+    <authorUrl>https://m2ks.ru</authorUrl>
+    <copyright>Максим Ёдгоров</copyright>
+    <license>GNU/GPLv3 only</license>
+    <description>Переключение шаблона Joomla через GET-параметр ?apk=on</description>
+    <files>
+        <filename plugin="jApkTemplate">jApkTemplate.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+			<field name="tmplid" type="text" default="1" label="ID шаблона"
+				description="ID шаблона"></field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
